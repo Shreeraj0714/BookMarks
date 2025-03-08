@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(245, 230, 212);
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-text {
+    font-size: 50px; /* Adjust size as needed */
+    color: red; /* Change color */
+    font-family: Courier New, sans-serif; /* Choose a different font */
+    font-weight: bold;
+    
+    
+}
+
+.bookmark-text {
+    font-size: 50px; /* Same or different size */
+    color: blue; /* Different color */
+    font-family: 'Sacramento', monospace; /* Another font */
+    font-weight: bold;
+}
+
+a:active{
+    background-color: lightskyblue;
+}
+
+a:visited{
+    color: darkmagenta;
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:hover{
+    color: blue;
+}
